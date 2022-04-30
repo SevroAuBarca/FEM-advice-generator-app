@@ -19,6 +19,7 @@ const init = async () => {
   const data = await getQuote();
   adviceNumber.innerText = data.slip.id;
   adviceQuote.innerHTML = String.raw`
-    <span class="advice-quote" id="advice-quote">"${data.slip.advice}"</span>
+    
+    <span class="advice-quote">"${data.slip.advice}"</span>
   `;
 };
