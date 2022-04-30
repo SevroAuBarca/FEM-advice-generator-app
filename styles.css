@@ -94,10 +94,16 @@ main {
 @media screen and (min-width: 880px) {
   .container-quote {
     width: 35%;
+    padding: 3%;
   }
+  .container-quote h1 {
+    margin-top: 0;
+  }
+
   .container-quote .container-separation {
     background-image: url("./images/pattern-divider-desktop.svg");
   }
+
   .container-quote .advice-button:hover {
     filter: drop-shadow(0px 0px 15px var(--neon-green));
     cursor: pointer;
